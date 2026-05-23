@@ -1,13 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Supprimer mon compte MusicPlanning</title>
-=======
     <title>Supprimer mon compte – MusicPlanning</title>
->>>>>>> 7059d0c (Initial commit)
     <style>
         * {
             margin: 0;
@@ -107,8 +103,6 @@
             color: #856404;
         }
 
-<<<<<<< HEAD
-=======
         .success-box {
             background: #d4edda;
             border-left: 4px solid #28a745;
@@ -121,7 +115,6 @@
             color: #155724;
         }
 
->>>>>>> 7059d0c (Initial commit)
         .contact-section {
             background: #f8f9fa;
             padding: 20px;
@@ -210,8 +203,6 @@
             color: #333;
         }
 
-<<<<<<< HEAD
-=======
         .badge {
             display: inline-block;
             background: #28a745;
@@ -223,7 +214,6 @@
             vertical-align: middle;
         }
 
->>>>>>> 7059d0c (Initial commit)
         @media (max-width: 600px) {
             .content, .header {
                 padding: 20px;
@@ -243,56 +233,23 @@
     <div class="container">
         <div class="header">
             <h1>🎵 MusicPlanning</h1>
-<<<<<<< HEAD
-            <p>Supprimer mon compte et mes données</p>
-=======
             <p>Supprimer mon compte et mes données – Procédure officielle</p>
->>>>>>> 7059d0c (Initial commit)
         </div>
 
         <div class="content">
             <h2>Qu'est-ce que c'est ?</h2>
             <p>
-<<<<<<< HEAD
-                Cette page vous permet de demander la suppression complète de votre compte MusicPlanning et de toutes les données associées.
-                La suppression est irréversible et permanente.
-            </p>
-
-            <div class="info-box">
-                <strong>ℹ️ Processus transparent :</strong> Votre demande sera traitée manuellement par notre équipe de développement.
-                Vous recevrez une confirmation par email une fois la suppression effectuée.
-            </div>
-
-            <h2>Données supprimées</h2>
-            <p>Lorsque vous demandez la suppression de votre compte, les éléments suivants sont supprimés :</p>
-
-            <div class="data-list">
-                <h4>✓ Données supprimées automatiquement :</h4>
-                <ul>
-                    <li>Votre profil utilisateur et authentification (email, mot de passe)</li>
-                    <li>Tous les événements du planning et calendriers</li>
-                    <li>Toutes les notes et annotations</li>
-                    <li>Toutes les résolutions et objectifs</li>
-                    <li>Tous les albums et playlists</li>
-                    <li>Toutes les pistes musicales et métadonnées associées</li>
-                    <li>Tous les liens YouTube sauvegardés</li>
-                    <li>Tous les enregistrements audio et fichiers de stockage</li>
-                    <li>Tous les dossiers d'enregistrement</li>
-                    <li>Historique de synchronisation et données Supabase</li>
-                    <li>Données d'abonnement et d'achat</li>
-=======
                 Cette page détaille la procédure pour demander la suppression complète et définitive de votre compte <strong>MusicPlanning</strong>.
-                Conformément à nos dernières évolutions (avril 2026), la suppression s’accompagne d’<strong>une période de rétention d’un mois</strong> avant effacement total,
+                Conformément à nos dernières évolutions (avril 2026), la suppression s'accompagne d'<strong>une période de rétention d'un mois</strong> avant effacement total,
                 vous permettant de revenir sur votre décision.
             </p>
 
             <div class="info-box">
                 <strong>ℹ️ Processus sécurisé & automatisé</strong><br>
-                Toutes les actions sont tracées et validées côté serveur (Edge Functions, RLS, cron jobs). Aucun bypass n’est possible. 
+                Toutes les actions sont tracées et validées côté serveur (Edge Functions, RLS, cron jobs). Aucun bypass n'est possible. 
                 La suppression est irréversible après la période de rétention.
             </div>
 
-            <!-- Nouvelle section : rétention 1 mois -->
             <h2>🗑️ Période de rétention (1 mois)</h2>
             <div class="success-box">
                 <strong>✅ Délai de grâce de 30 jours</strong><br>
@@ -301,12 +258,12 @@
                 toutes les données de la table <code>deleted_accounts</code> et des tables associées.
             </div>
             <p>
-                Si vous changez d’avis pendant cette période, il vous suffit de nous contacter par email ou de vous reconnecter via l’application 
-                (si vous utilisez toujours le même fournisseur d’identité). Nous restaurons alors votre compte avec l’intégralité de vos données.
+                Si vous changez d'avis pendant cette période, il vous suffit de nous contacter par email ou de vous reconnecter via l'application 
+                (si vous utilisez toujours le même fournisseur d'identité). Nous restaurons alors votre compte avec l'intégralité de vos données.
             </p>
 
             <h2>Données supprimées</h2>
-            <p>La procédure efface l’intégralité des informations liées à votre <strong>userId</strong> (grâce aux politiques RLS et à l’isolation stricte) :</p>
+            <p>La procédure efface l'intégralité des informations liées à votre <strong>userId</strong> (grâce aux politiques RLS et à l'isolation stricte) :</p>
 
             <div class="data-list">
                 <h4>✓ Suppression immédiate (après rétention) :</h4>
@@ -320,88 +277,27 @@
                     <li>Dossiers d'enregistrement et historique de synchronisation</li>
                     <li>Données d'abonnement (essai, validation Google Play / App Store, receipts)</li>
                     <li>Comptes anonymes et données migrées lors de la conversion</li>
->>>>>>> 7059d0c (Initial commit)
                 </ul>
             </div>
 
             <div class="data-list">
-<<<<<<< HEAD
-                <h4>⏱️ Données conservées temporairement :</h4>
-                <ul>
-                    <li>Logs d'accès et journaux de sécurité (conservés 90 jours pour conformité légale)</li>
-                    <li>Métadonnées techniques nécessaires à l'audit de sécurité</li>
-                    <li>Données anonymisées à des fins statistiques (impossible de vous identifier)</li>
-=======
                 <h4>⏱️ Données conservées temporairement (conformité légale) :</h4>
                 <ul>
                     <li>Logs d'accès et journaux de sécurité (90 jours)</li>
-                    <li>Métadonnées d’audit (anonymisées)</li>
+                    <li>Métadonnées d'audit (anonymisées)</li>
                     <li>Statistiques agrégées (impossible de ré‑identifier un utilisateur)</li>
->>>>>>> 7059d0c (Initial commit)
                 </ul>
             </div>
 
             <div class="warning-box">
-<<<<<<< HEAD
-                <strong>⚠️ Attention :</strong> Ces données ne peuvent pas être récupérées après suppression. Assurez-vous d'avoir téléchargé une copie de vos données importantes avant de procéder.
+                <strong>⚠️ Attention :</strong> Après le délai de 30 jours, aucune récupération n'est possible. Assurez-vous d'avoir exporté vos données importantes avant la demande.
             </div>
 
-            <h2>Comment demander la suppression ?</h2>
-            <p>Suivez les étapes ci-dessous pour demander la suppression de votre compte :</p>
-
-            <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-content">
-                    <strong>Ouvrez votre client email</strong><br>
-                    Utilisez l'adresse email associée à votre compte MusicPlanning.
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-content">
-                    <strong>Rédigez un email</strong><br>
-                    Adressez l'email à <strong>contact@komparazon.fr</strong>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-content">
-                    <strong>Spécifiez le sujet</strong><br>
-                    Mettez comme objet : <strong>"Suppression du compte MusicPlanning"</strong>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">4</div>
-                <div class="step-content">
-                    <strong>Confirmez votre identité</strong><br>
-                    Dans le corps du message, incluez :
-                    <ul style="margin-top: 8px;">
-                        <li>L'adresse email de votre compte MusicPlanning</li>
-                        <li>Une confirmation écrite de votre demande de suppression</li>
-                        <li>Un numéro de téléphone ou toute autre information permettant de vérifier votre identité</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">5</div>
-                <div class="step-content">
-                    <strong>Envoyez l'email</strong><br>
-                    Votre demande sera traitée sous <strong>7 jours ouvrables</strong>.
-                </div>
-=======
-                <strong>⚠️ Attention :</strong> Après le délai de 30 jours, aucune récupération n’est possible. Assurez-vous d’avoir exporté vos données importantes avant la demande.
-            </div>
-
-            <!-- Nouvelle section : comment supprimer dans l'application -->
             <h2>📱 Suppression directe depuis l'application (recommandé)</h2>
-            <p>L’application MusicPlanning intègre désormais un bouton de suppression autonome. C’est la méthode la plus rapide et sécurisée :</p>
+            <p>L'application MusicPlanning intègre désormais un bouton de suppression autonome. C'est la méthode la plus rapide et sécurisée :</p>
             <div class="step">
                 <div class="step-number">1</div>
-                <div class="step-content"><strong>Ouvrez l’application</strong> (version iOS ou Android).</div>
+                <div class="step-content"><strong>Ouvrez l'application</strong> (version iOS ou Android).</div>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
@@ -424,12 +320,11 @@
                 Les comptes anonymes inactifs depuis plus de 30 jours sont automatiquement purgés chaque nuit par un cron job.
             </p>
 
-            <!-- Procédure email (alternative) -->
             <h2>✉️ Demande par email (alternative)</h2>
-            <p>Si vous ne pouvez pas accéder à l’application, suivez ces étapes manuelles :</p>
+            <p>Si vous ne pouvez pas accéder à l'application, suivez ces étapes manuelles :</p>
             <div class="step">
                 <div class="step-number">1</div>
-                <div class="step-content">Envoyez un email à <strong>contact@komparazon.fr</strong> depuis l’adresse associée à votre compte.</div>
+                <div class="step-content">Envoyez un email à <strong>contact@komparazon.fr</strong> depuis l'adresse associée à votre compte.</div>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
@@ -437,84 +332,59 @@
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <div class="step-content">Dans le corps : précisez votre email MusicPlanning et joignez un justificatif d’identité (si demandé).</div>
+                <div class="step-content">Dans le corps : précisez votre email MusicPlanning et joignez un justificatif d'identité (si demandé).</div>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
                 <div class="step-content">Notre équipe traitera la demande sous <strong>7 jours ouvrables</strong> et vous enverrez une confirmation.</div>
->>>>>>> 7059d0c (Initial commit)
             </div>
 
             <div class="contact-section">
                 <h3>Vous êtes prêt à demander la suppression ?</h3>
-<<<<<<< HEAD
-                <a href="mailto:contact@komparazon.fr?subject=Suppression%20du%20compte%20MusicPlanning&body=Bonjour%2C%0A%0AJe%20demande%20la%20suppression%20compl%C3%A8te%20de%20mon%20compte%20MusicPlanning%20et%20de%20toutes%20les%20donn%C3%A9es%20associ%C3%A9es.%0A%0AAdresse%20email%20MusicPlanning%20%3A%0A%0AM%C3%A9rci%2C" class="email-link">
-                    📧 Envoyer la demande
-                </a>
-            </div>
-
-            <h2>Délai de traitement</h2>
-            <p>
-                Une fois votre demande reçue et votre identité vérifiée, la suppression de votre compte et de vos données s'effectuera
-                <strong>dans les 7 jours ouvrables</strong>. Vous recevrez une confirmation par email à l'adresse fournie.
-            </p>
-
-            <h2>Questions ?</h2>
-            <p>
-                Si vous avez besoin d'aide ou de clarifications, n'hésitez pas à nous contacter à
-                <strong>contact@komparazon.fr</strong>.
-            </p>
-
-            <div class="info-box">
-                <strong>💡 Besoin d'aide autrement ?</strong> Si vous cherchez simplement à réinitialiser votre mot de passe,
-                à changer vos paramètres de confidentialité ou à désactiver temporairement votre compte, veuillez nous contacter
-                plutôt que de demander une suppression définitive.
-=======
                 <a href="mailto:contact@komparazon.fr?subject=Suppression%20du%20compte%20MusicPlanning&body=Bonjour%2C%0A%0AJe%20demande%20la%20suppression%20compl%C3%A8te%20de%20mon%20compte%20MusicPlanning%20et%20de%20toutes%20les%20donn%C3%A9es%20associ%C3%A9es.%0A%0AAdresse%20email%20MusicPlanning%20%3A%0A%0AMon%20num%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%20(optionnel)%20%3A%0A%0AJe%20confirme%20avoir%20lu%20la%20politique%20de%20r%C3%A9tention%20de%2030%20jours.%0A%0ACordialement." class="email-link">
                     📧 Envoyer la demande par email
                 </a>
             </div>
 
-            <!-- Récapitulatif des nouvelles fonctionnalités techniques -->
             <h2>⚙️ Sécurité & conformité</h2>
-            <p>MusicPlanning s’appuie sur une architecture 100% Supabase avec les garanties suivantes :</p>
+            <p>MusicPlanning s'appuie sur une architecture 100% Supabase avec les garanties suivantes :</p>
             <ul>
                 <li>✅ <strong>Essai gratuit 30 jours</strong> obligatoire (déclenché à la création du compte via <code>on_auth_user_created</code>)</li>
-                <li>✅ <strong>Blocage total</strong> après expiration de l’essai sans abonnement actif</li>
+                <li>✅ <strong>Blocage total</strong> après expiration de l'essai sans abonnement actif</li>
                 <li>✅ <strong>RLS (Row Level Security)</strong> sur toutes les tables → isolation stricte par <code>userId</code></li>
                 <li>✅ <strong>Nettoyage complet à la déconnexion</strong> (CleanupService côté client)</li>
                 <li>✅ <strong>Utilisateurs anonymes</strong> → comptes temporaires Supabase</li>
                 <li>✅ <strong>Suppression automatique</strong> des données anonymes expirées (cron job quotidien)</li>
                 <li>✅ <strong>Conversion automatique</strong> des données anonymes → compte permanent (migration transparente)</li>
-                <li>✅ <strong>Abonnement pendant l’essai</strong> sans perte de données existantes</li>
-                <li>✅ <strong>Conservation des données</strong> après expiration de l’abonnement (seul l’accès est bloqué)</li>
-                <li>✅ <strong>Suppression de compte avec rétention 1 mois</strong> (table <code>deleted_accounts</code> + cron job d’effacement définitif)</li>
+                <li>✅ <strong>Abonnement pendant l'essai</strong> sans perte de données existantes</li>
+                <li>✅ <strong>Conservation des données</strong> après expiration de l'abonnement (seul l'accès est bloqué)</li>
+                <li>✅ <strong>Suppression de compte avec rétention 1 mois</strong> (table <code>deleted_accounts</code> + cron job d'effacement définitif)</li>
                 <li>✅ <strong>Validation des achats in-app</strong> (Google Play / App Store) via Edge Function <code>validate-receipt</code></li>
                 <li>✅ <strong>Aucun bypass possible</strong> – toute la logique critique est server-side</li>
             </ul>
 
             <div class="info-box">
-                <strong>🔐 En savoir plus sur la rétention des données :</strong> La table <code>deleted_accounts</code> conserve l’identifiant et la date de demande pendant 30 jours. 
+                <strong>🔐 En savoir plus sur la rétention des données :</strong> La table <code>deleted_accounts</code> conserve l'identifiant et la date de demande pendant 30 jours. 
                 Chaque nuit, un job vérifie les enregistrements de plus de 30 jours et supprime définitivement les données associées dans toutes les tables (profil, events, playlists, storage, etc.).
                 Les logs de sécurité sont conservés 90 jours comme exigé par la législation.
             </div>
 
             <h2>⏳ Délai de traitement</h2>
             <p>
-                Que vous utilisiez le bouton intégré ou la demande par email, l’effacement définitif interviendra <strong>30 jours après la confirmation</strong>.
+                Que vous utilisiez le bouton intégré ou la demande par email, l'effacement définitif interviendra <strong>30 jours après la confirmation</strong>.
                 Vous recevrez deux emails : un accusé de réception immédiat, et un rappel 48h avant la suppression définitive.
             </p>
 
             <h2>❓ Questions fréquentes</h2>
             <ul>
-                <li><strong>Puis-je annuler ma demande de suppression ?</strong> — Oui, dans les 30 jours. Contactez-nous via email ou reconnectez-vous via l’application.</li>
-                <li><strong>Que deviennent mes abonnements actifs ?</strong> — La suppression entraîne la résiliation immédiate. Aucun remboursement partiel n’est effectué conformément aux CGU.</li>
-                <li><strong>Si j’étais utilisateur anonyme, que se passe‑t‑il ?</strong> — La suppression supprime également le compte temporaire. Les cron jobs nettoient les comptes anonymes inactifs après 30 jours.</li>
+                <li><strong>Puis-je annuler ma demande de suppression ?</strong> — Oui, dans les 30 jours. Contactez-nous via email ou reconnectez-vous via l'application.</li>
+                <li><strong>Que deviennent mes abonnements actifs ?</strong> — La suppression entraîne la résiliation immédiate. Aucun remboursement partiel n'est effectué conformément aux CGU.</li>
+                <li><strong>Si j'étais utilisateur anonyme, que se passe‑t‑il ?</strong> — La suppression supprime également le compte temporaire. Les cron jobs nettoient les comptes anonymes inactifs après 30 jours.</li>
                 <li><strong>Pourquoi attendre 30 jours ?</strong> — Pour vous offrir un délai de rétractation et satisfaire aux obligations légales de conservation minimale des logs de sécurité.</li>
             </ul>
 
             <div class="warning-box">
-                <strong>⚠️ À propos du mot de passe :</strong> Si vous avez oublié votre mot de passe, utilisez la fonction « Mot de passe oublié » dans l’application avant d’initier la suppression. 
+                <strong>⚠️ À propos du mot de passe :</strong> Si vous avez oublié votre mot de passe, utilisez la fonction « Mot de passe oublié » dans l'application avant d'initier la suppression. 
                 Une fois le compte désactivé, vous ne pourrez plus accéder à la boîte de réception associée pour toute récupération future.
             </div>
 
@@ -524,26 +394,15 @@
                 <a href="mailto:contact@komparazon.fr?subject=Question%20suppression%20compte%20MusicPlanning" class="email-link">
                     📧 Nous contacter
                 </a>
->>>>>>> 7059d0c (Initial commit)
             </div>
         </div>
 
         <div class="footer">
-<<<<<<< HEAD
-            <p><strong>MusicPlanning</strong> — Application de planning musical</p>
-            <p>Développeur : Sheldon K. | contact@komparazon.fr</p>
-            <p>Page de suppression de compte créée conformément à la politique de confidentialité</p>
-=======
             <p><strong>MusicPlanning</strong> — Application de planning musical (version 3.0)</p>
             <p>Développeur : Sheldon K. | <a href="mailto:contact@komparazon.fr" style="color:#667eea;">contact@komparazon.fr</a></p>
             <p>Conformité RGPD – Politique de rétention 1 mois – Aucune donnée revendue</p>
->>>>>>> 7059d0c (Initial commit)
             <p>© 2026 Sheldon K. Tous droits réservés.</p>
         </div>
     </div>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 7059d0c (Initial commit)
